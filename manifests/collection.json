@@ -13,5 +13,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://davidroncero.github.io/iiif-training/manifests/manifest-resource-without-service.json",
     "label" : "[Click to edit label]"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://davidroncero.github.io/iiif-training/manifests/manifest-two-images-crop.json",
+    "label" : "One canvas, two images: one full, one cropped (with service)"
   } ]
 }
