@@ -1,62 +1,75 @@
 {
-  "@context" : "http://iiif.io/api/presentation/2/context.json",
-  "@id" : "https://davidroncero.github.io/iiif-training/manifests/manifest-two-images-crop.json",
-  "@type" : "sc:Manifest",
-  "label" : "One canvas, two images: one full, one cropped (with service)",
-  "metadata" : [ ],
-  "description" : [ {
-    "@value" : "[Click to edit description]",
-    "@language" : "en"
-  } ],
-  "license" : "https://creativecommons.org/licenses/by/3.0/",
-  "attribution" : "[Click to edit attribution]",
-  "sequences" : [ {
-    "@id" : "http://0b03f349-a024-4847-995a-84981ec99ee4",
-    "@type" : "sc:Sequence",
-    "label" : [ {
-      "@value" : "Normal Sequence",
-      "@language" : "en"
-    } ],
-    "canvases" : [ {
-      "@id" : "http://d12e4f37-fa92-4d69-a19b-e0bc1594a812",
-      "@type" : "sc:Canvas",
-      "label" : "Empty canvas",
-      "height" : 3456,
-      "width" : 4608,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://dee3b6fe-a480-449c-bf1e-859e4a3a444f",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://iiif.archivelab.org/iiif/img-20231118-161254/1000,1000,2000,2000/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "height" : 3456,
-          "width" : 4608
-        },
-        "on" : "http://d12e4f37-fa92-4d69-a19b-e0bc1594a812"
-      }, {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://dee3b6fe-a480-449c-bf1e-859e4a3a444f",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://iiif.archivelab.org/iiif/img-20231118-161254/1000,1000,2000,2000/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://iiif.archivelab.org/iiif/img-20231118-161254",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
-          },
-          "height" : 3456,
-          "width" : 4608
-        },
-        "on" : "http://d12e4f37-fa92-4d69-a19b-e0bc1594a812"
-      } ],
-      "related" : ""
-    } ]
-  } ],
-  "structures" : [ ]
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://3e16c125-6a74-4fa7-b46e-54b51337c488",
+	"@type": "sc:Manifest",
+	"label": "One canvas, two images: one full, one cropped (with service)",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "[Click to edit description]",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://0b03f349-a024-4847-995a-84981ec99ee4",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://d12e4f37-fa92-4d69-a19b-e0bc1594a812",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 3456,
+					"width": 4608,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://dee3b6fe-a480-449c-bf1e-859e4a3a444f",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://iiif.archivelab.org/iiif/img-20231118-161254/1000,1000,2000,2000/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 3456,
+								"width": 4608
+							},
+							"on": "http://d12e4f37-fa92-4d69-a19b-e0bc1594a812"
+						},
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://dee3b6fe-a480-449c-bf1e-859e4a3a444f",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://iiif.archivelab.org/iiif/img-20231118-161254/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://iiif.archivelab.org/iiif/img-20231118-161254",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json"
+									]
+								},
+								"height": 3456,
+								"width": 4608
+							},
+							"on": "http://d12e4f37-fa92-4d69-a19b-e0bc1594a812"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
 }
