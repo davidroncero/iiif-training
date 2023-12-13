@@ -1,0 +1,13 @@
+{
+  "id" : "https://davidroncero.github.io/iiif-training/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in davidroncero/iiif-training project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://davidroncero.github.io/iiif-training/manifests/manifest-one-image-canvas.json",
+    "label" : "Two canvases, one image per canvas with service"
+  } ]
+}
