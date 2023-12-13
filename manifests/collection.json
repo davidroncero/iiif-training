@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://davidroncero.github.io/iiif-training/manifests/manifest-one-image-canvas.json",
     "label" : "Two canvases, one image per canvas with service"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://davidroncero.github.io/iiif-training/manifests/manifest-resource-without-service.json",
+    "label" : "[Click to edit label]"
   } ]
 }
