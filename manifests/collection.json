@@ -17,5 +17,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://davidroncero.github.io/iiif-training/manifests/manifest-two-images-crop.json",
     "label" : "One canvas, two images: one full, one cropped (with service)"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://davidroncero.github.io/iiif-training/manifests/manifest-with-annotations.json",
+    "label" : "Manifest with annotations and Search Service"
   } ]
 }
