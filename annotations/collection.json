@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://davidroncero.github.io/iiif-training/annotations/e2a92eb060cc2b23b012d6c168cd0b74.json" ],
+  "@id" : "https://davidroncero.github.io/iiif-training/annotations/collection.json",
+  "label" : "All annotations loaded in davidroncero/iiif-training project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
