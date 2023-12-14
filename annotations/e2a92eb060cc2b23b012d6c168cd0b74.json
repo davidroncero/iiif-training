@@ -1,0 +1,88 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Tree",
+      "@type" : "oa:Tag",
+      "chars" : "Tree"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Árbol",
+      "@type" : "oa:Tag",
+      "chars" : "Árbol"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Tree",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Tree</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/13367586",
+    "motivation" : [ "oa:tagging", "oa:commenting" ],
+    "dcterms:created" : "2023-12-14T06:11:16",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1702534276045",
+    "dcterms:modified" : "2023-12-14T06:11:16",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://davidroncero.github.io/iiif-training/manifests/manifest-one-image-canvas.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=2737,857,1306,1807"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2736.62687,856.74627h652.9403v0h652.9403v903.68657v903.68657h-652.9403h-652.9403v-903.68657z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_7506bf6f-615e-4ec1-ae61-744ab566c430\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://d12e4f37-fa92-4d69-a19b-e0bc1594a812"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Puig Campana 1470m",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Puig Campana 1470m</p>"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "montaña",
+      "@type" : "oa:Tag",
+      "chars" : "montaña"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Puig Campana",
+      "@type" : "oa:Tag",
+      "chars" : "Puig Campana"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/13367586",
+    "motivation" : [ "oa:commenting", "oa:tagging" ],
+    "dcterms:created" : "2023-12-14T06:10:24",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1702534224050",
+    "dcterms:modified" : "2023-12-14T06:10:44",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://davidroncero.github.io/iiif-training/manifests/manifest-one-image-canvas.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1715,1100,924,881"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1714.53731,1100.32836h461.89552v0h461.89552v440.40299v440.40299h-461.89552h-461.89552v-440.40299z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_60acdfb5-f68b-40fa-9579-5da69f842b76\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"28.65672\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://d12e4f37-fa92-4d69-a19b-e0bc1594a812"
+    } ]
+  } ],
+  "@id" : "https://davidroncero.github.io/iiif-training/annotations/e2a92eb060cc2b23b012d6c168cd0b74.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
